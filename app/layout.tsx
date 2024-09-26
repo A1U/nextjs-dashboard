@@ -1,5 +1,7 @@
 import '@/app/ui/global.css';
 import {inter} from '@/app/ui/font';
+import Document, { Html, Head, Main, NextScript } from 'next/document';
+
 
 export default function RootLayout({
   children,
